@@ -36,3 +36,5 @@ def generate_qr(request):
 
     return render(request, 'generate_qr.html')
 
+def home(request):
+    return HttpResponse("Hello Najwa")
